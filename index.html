@@ -7,247 +7,154 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio Template for Bootstrap</title>
+    <title>Matteo Ferroni - Personal Web Page</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a>
-            </li>
-            <li><a href="#top">Home</a>
-            </li>
-            <li><a href="#about">About</a>
-            </li>
-            <li><a href="#services">Services</a>
-            </li>
-            <li><a href="#portfolio">Portfolio</a>
-            </li>
-            <li><a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /Side Menu -->
-
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-        <div class="vert-text">
-            <h1>Start Bootstrap</h1>
-            <h3>
-                <em>We</em> Build Great Templates,
-                <em>You</em> Make Them Better</h3>
-            <a href="#about" class="btn btn-default btn-lg">Find Out More</a>
-        </div>
-    </div>
-    <!-- /Full Page Image Header Area -->
-
-    <!-- Intro -->
-    <div id="about" class="intro">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h2>Subtle Sidebar is the Perfect Template for your Next Portfolio Website Project!</h2>
-                    <p class="lead">This template really has it all. It's up to you to customize it to your liking! It features some fresh photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
-                </div>
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Matteo</span> Ferroni
+                </a>
             </div>
-        </div>
-    </div>
-    <!-- /Intro -->
 
-    <!-- Services -->
-    <div id="services" class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Our Services</h2>
-                    <hr>
-                </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll heavy">
+                        <a href="#about">About .me</a>
+                    </li>
+                    <li class="page-scroll heavy">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="page-scroll heavy">
+                        <a href="#contact">Contact .me</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-md-2 col-md-offset-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-rocket"></i>
-                        <h4>Spacecraft Repair</h4>
-                        <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-magnet"></i>
-                        <h4>Problem Solving</h4>
-                        <p>Need to know how magnets work? Our problem solving solutions team can help you identify problems and conduct exploratory research.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-shield"></i>
-                        <h4>Blacksmithing</h4>
-                        <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-pencil"></i>
-                        <h4>Pencil Sharpening</h4>
-                        <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading"></h1>
+                        <p class="intro-text">Hi, that's .me!</p>
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- /Services -->
+    </section>
 
-    <!-- Callout -->
-    <div class="callout">
-        <div class="vert-text">
-            <h1>A Dramatic Text Area</h1>
-        </div>
-    </div>
-    <!-- /Callout -->
-
-    <!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Our Work</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-2 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                        </a>
-                        <h4>Cityscape</h4>
+    <section id="about" class="container content-section text-left">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-0 text-left">
+                        <h2>About .me</h2>
+                        <hr>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                        </a>
-                        <h4>Is That On Fire?</h4>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p>
+                            I am a PhD Student at Dipartimento di Elettronica, Informazione e Bioingegneria (DEIB), Politecnico di Milano in Italy. I am currently working at the “Novel and Emerging Computing System Technologies” Laboratory (NECST Lab) with Prof. Marco Santambrogio. My research interests revolve around mobile devices and pervasive systems.
+                        </p>
+                        <p>
+                            In late 2012, I founded Lakeside Srl, an innovative start-up in which I serve as Chief Technology Officer (CTO) for the project Afterclaps. 
+                        </p>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-2 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                        </a>
-                        <h4>Stop Sign</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="portfolio-item">
-                        <a href="#">
-                            <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                        </a>
-                        <h4>Narrow Focus</h4>
+                    <div class="col-sm-3 col-offset-1 hidden-xs">
+                        <img class="img-responsive img-circle" src="img/me.jpg">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- /Portfolio -->
+    </section>
 
-    <!-- Call to Action -->
-    <div class="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-default">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Call to Action -->
-
-    <!-- Map -->
-    <div id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
-    </div>
-    <!-- /Map -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <ul class="list-inline">
-                        <li><i class="fa fa-facebook fa-3x"></i>
-                        </li>
-                        <li><i class="fa fa-twitter fa-3x"></i>
-                        </li>
-                        <li><i class="fa fa-dribbble fa-3x"></i>
-                        </li>
-                    </ul>
-                    <div class="top-scroll">
-                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+    <section id="projects" class="content-section text-center">
+        <div class="projects-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                        <h2>Projects</h2>
+                        <hr>
                     </div>
-                    <hr>
-                    <p>Copyright &copy; Company 2013</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-offset-2">
+                      <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                      <h2>MPower</h2>
+                      <p>Bla bla bla</p>
+                      <p><a class="btn btn-default" href="#" role="button">More details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                      <img class="img-circle" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                      <h2>Afterclaps</h2>
+                      <p>Bla bla bla</p>
+                      <p><a class="btn btn-default" href="#" role="button">More details »</a></p>
+                    </div><!-- /.col-lg-4 -->
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- /Footer -->
+    </section>
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact .me</h2>
+                <p>matteo@ferroni.me</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li><a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <div id="map"></div>
 
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
 </body>
 
